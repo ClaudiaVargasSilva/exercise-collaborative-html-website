@@ -1,3 +1,19 @@
 body{
     background: #BDBDBD;
 }
+
+
+.margen {
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-top: 15px;
+    margin-right: 300px
+}
+.margentext {
+    margin-left: 15px;
+    margin-right: 600px;
+}
+.boton {
+    margin-left: 300px;
+    margin-top: 15px;
+}
