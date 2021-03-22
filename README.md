@@ -1,3 +1,9 @@
+![screenshot](./img1.png)
+
+![screenshot](./img2.png)
+
+![screenshot](./img3.png)
+
 # Making a website as a team (Git collabotation)
 
 Practice your skills in GIT while developing a typical website.

@@ -1,56 +1,24 @@
-<!-- your html code here -->
+
 <div class="container">
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-title">Contact</h2>
-            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-            <div class="card-body medida">
-                <div class="container bg-secondary text-center">
-
-                    <form class="form-inline">
-                        <div class="form-group">
-                            <label for="staticEmail2" class="sr-only">Your E-mail</label>
-                            <input type="text" readonly class="form-control-plaintext" id="staticEmail2"
-                                value="Your E-mail" placeholder="Your email">
-                        </div>
-                        <div class="form-group">
-                            <label for="inputPassword2" class="sr-only">Your email</label>
-                            <input type="Your email" class="form-control margen" id="inputPassword2" placeholder="Your email">
-                        </div>
-                        <div class="row">
-                            <div class="form-group">
-                                <label for="staticEmail2" class="sr-only">Your message</label>
-                                <input type="text" readonly class="form-control-plaintext" id="staticEmail2"
-                                    value="Your message">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputPassword2" class="sr-only">Please enter your message here...</label>
-                                <textarea class="form-control margentext" id="validationTextarea"
-                                    placeholder="Please enter your message here..." required></textarea>
-                            </div>
-
-
-                        </div>
-
-                        <div class="row float-right">
-                          
-                            <button type="submit" class="btn btn-primary boton">Submit</button>
- 
-                        </div>
-
-
-
-                    </form>
+    <h2 class="card-title">Contact</h2>
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+    </p>
+    <div class="row justify-content-center">
+        <div class="col-10">
+            <form class="bg-light pt-3 pr-2 pb-4 pl-5 rounded">
+                <div class="form-group d-flex">
+                  <label class="col-sm-2 col-form-label" for="exampleFormControlInput1"><strong>E-mail</strong></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your e-mail">
                 </div>
-
-
-
-            </div>
-
+                <div class="form-group d-flex">
+                    <label class="col-sm-2 col-form-label" for="exampleFormControlInput1"><strong>Your message</strong></label>
+                    <textarea class="form-control" name="" id="" placeholder="Please enter your message here..."></textarea>
+                </div>
+                <div class="col-xs-3 text-right">
+                    <button type="button" class="btn btn-primary btn-sm">Submit</button>
+                </div>
+            </form>
         </div>
-
     </div>
 </div>
